@@ -1,4 +1,4 @@
-# Gemini API : AIzaSyCF7xCRjmobiB15TrYAuqh4tYrOxx4vWMs
+# Gemini API : 
 from google import genai
 import pandas as pd
 import re
@@ -12,7 +12,7 @@ print(questions_phase2.head())
 
 # Initialize Google genai Client
 client = genai.Client(
-    api_key="AIzaSyCF7xCRjmobiB15TrYAuqh4tYrOxx4vWMs"
+    api_key=""
 )  # Replace with your actual Google API key
 
 pattern = r"</think>([\s\S]*)"
