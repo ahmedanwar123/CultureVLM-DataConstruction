@@ -6,7 +6,7 @@ import time
 data = pd.read_csv("Dataset_CultureVLM_style - Concepts Introductions.csv")
 
 # Initialize Google genai Client
-client = genai.Client(api_key="AIzaSyCF7xCRjmobiB15TrYAuqh4tYrOxx4vWMs")
+client = genai.Client(api_key="")
 # Prepare dataframe for storing results
 introductions_df = pd.DataFrame()
 introductions_df["concept"] = data["concept"]
