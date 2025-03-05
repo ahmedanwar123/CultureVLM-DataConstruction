@@ -9,7 +9,7 @@ questions_phase1 = pd.DataFrame()
 questions_phase1["concept"] = data["concept"]
 
 # Initialize Google genai Client
-client = genai.Client(api_key="AIzaSyCF7xCRjmobiB15TrYAuqh4tYrOxx4vWMs")
+client = genai.Client(api_key="")
 
 pattern = r"</think>([\s\S]*)"
 questions = []
